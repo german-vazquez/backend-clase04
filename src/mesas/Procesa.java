@@ -5,7 +5,7 @@ public class Procesa {
     private Articulo articulo;
 
     public Procesa(Articulo articulo) {
-        this.comprobador = new CompruebaCalidad();
+        this.comprobador = new CompruebaCalidad(articulo);
         this.articulo = articulo;
     }
 
